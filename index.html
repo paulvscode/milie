@@ -7,13 +7,18 @@
     <title>MiliE</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/bricklayer/0.4.2/bricklayer.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bricklayer/0.4.2/bricklayer.min.js"></script>
   </head>
   <body>
     <div id="main">
       <nav class="main-nav">
         <div class="title">je suis venue vous dire.</div>
         <div class="cross-menu">
-          <img src="./img/menu.png" alt="">
+          <img src="./img/menu.png" alt="" />
         </div>
         <div class="links">
           <p>Book</p>
@@ -35,39 +40,98 @@
         </div>
       </div>
 
-      <div class="quick-lookup-book">
-        <div class="book-item">
+      <div class="bricklayer">
+        <div>
           <img
             src="https://images.unsplash.com/photo-1542086260-ddb62f405c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt=""
           />
         </div>
-        <div class="book-item">
+        <div>
           <img
             src="https://images.unsplash.com/photo-1542086260-ddb62f405c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt=""
           />
         </div>
-        <div class="book-item">
+        <div>
           <img
             src="https://images.unsplash.com/photo-1542086260-ddb62f405c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt=""
           />
         </div>
-        <div class="book-item">
+        <div>
           <img
             src="https://images.unsplash.com/photo-1542086260-ddb62f405c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt=""
           />
         </div>
-        <div class="book-item">
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1542086260-ddb62f405c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+        </div>
+        <div>
           <img
             src="https://images.unsplash.com/photo-1542086260-ddb62f405c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt=""
           />
         </div>
       </div>
+
+      <!-- <div class="quick-lookup-book">
+        <div class="book-item">
+          <img
+            src="https://images.unsplash.com/photo-1542086260-ddb62f405c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+        </div>
+        <div class="book-item">
+          <img
+            src="https://images.unsplash.com/photo-1542086260-ddb62f405c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+        </div>
+        <div class="book-item">
+          <img
+            src="https://images.unsplash.com/photo-1542086260-ddb62f405c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+        </div>
+        <div class="book-item">
+          <img
+            src="https://images.unsplash.com/photo-1542086260-ddb62f405c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+        </div>
+        <div class="book-item">
+          <img
+            src="https://images.unsplash.com/photo-1542086260-ddb62f405c8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+        </div>
+      </div> -->
     </div>
     <footer></footer>
+    <script>
+      // const offset = 400;
+
+      // window.addEventListener("scroll", () => {
+      //   if (window.scrollY >= offset) {
+      //     onScroll();
+      //   } else {
+      //     console.log("on ne bouge pas");
+      //   }
+      // });
+
+      // var bricklayer = new Bricklayer(document.querySelector(".bricklayer"));
+
+      // function onScroll() {
+      //   bricklayer.append(document.createElement("div"));
+      //   var img = document.createElement("img");
+      //   img.src = "https://images.unsplash.com/photo-1682687221175-fd40bbafe6ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80";
+      //   bricklayer.append(img);
+      // }
+    </script>
   </body>
 </html>

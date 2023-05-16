@@ -127,9 +127,9 @@ html {
     width: 90%;
   }
   .description-image > .description > p:first-child {
-  font-size: 2.5rem;
-  margin-right: 0;
-}
+    font-size: 2.5rem;
+    margin-right: 0;
+  }
   .picture-description {
     text-align: center;
   }
@@ -138,9 +138,9 @@ html {
     margin-left: 0;
   }
   .description-image > .picture-description {
-  width: 90%;
-  margin: 2rem;
-}
+    width: 90%;
+    margin: 2rem;
+  }
 }
 
 @media screen and (max-width: 475px) {
@@ -160,3 +160,19 @@ html {
     cursor: pointer;
   }
 }
+
+/* masonry */
+/* @media screen and (min-width: 1200px) {
+  .bricklayer-column-sizer {
+    width: 33.3%;
+  }
+  .bricklayer-column > div > img {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bricklayer-column-sizer {
+    width: 50%;
+  }
+} */
