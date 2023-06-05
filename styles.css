@@ -161,18 +161,24 @@ html {
   }
 }
 
-/* masonry */
-/* @media screen and (min-width: 1200px) {
-  .bricklayer-column-sizer {
-    width: 33.3%;
-  }
-  .bricklayer-column > div > img {
-    width: 500px;
-  }
+/* projects */
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-@media screen and (min-width: 768px) {
-  .bricklayer-column-sizer {
-    width: 50%;
-  }
-} */
+.project {
+  margin: 10px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.project:hover {
+  opacity: 0.5;
+  transition: 0.2s ease-in-out;
+}
