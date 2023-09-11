@@ -3,6 +3,10 @@ html {
   font-family: "Wix Madefor Text", sans-serif;
 }
 
+body {
+  background-color: #ffde59;
+}
+
 .main-nav {
   margin: 2rem;
   display: flex;
